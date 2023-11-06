@@ -1,0 +1,103 @@
+.askedQuestionCard-Container {
+    margin: auto;
+    width: 1200px;
+    min-height: 200px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    padding: 0px 0px 20px 0px;
+}
+
+.askedQuestionCard-header-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.askedQuestionCard-title-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.askedQuestionCard-logo {
+    width: 56px;
+    height: 56px;
+    background-color: antiquewhite;
+    border-radius: 52px;
+}
+
+.askedQuestionCard-like-dislike-btn-con{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.askedQuestionCard-like-dislike-btn-con button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    transition: all ease-in-out .1s;
+}
+.askedQuestionCard-like-dislike-btn-con button:hover {
+    background-color: #1976d2;
+    color: #FFF;
+    transition: all ease-in-out .1s;
+}
+
+.askedQuestionCard-dislike-btn button:hover {
+    background-color: red;
+}
+
+.askedQuestionCard-divider{
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.308);
+    width: 96%;
+    height: 2px;
+    border-radius: 100px;
+}
+
+.askedQuestioncard-content {
+    margin: auto;
+    padding: 10px 50px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.askedQuestioncard-content p {
+    text-align: left;
+    margin: auto;
+    margin-top: 0px;
+}
+
+.askedQuestionCard-tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0px 25px;
+    gap: 5px;
+}
+
+.askedQuestionCard-medals{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0px 25px;
+    gap: 5px;
+}

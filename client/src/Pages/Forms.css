@@ -1,0 +1,116 @@
+/* this messes with the whole home page and other site structuring so avoid using the body tag  */
+/* body is already used in Index.css  */
+body {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0; */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif; /* Use 'Montserrat' font for h2 element */
+  font-size: 40pt; /* Set font size to 48pt */
+  font-weight: normal; /* Ensure Montserrat Regular font is used (font-weight: normal) */
+}
+
+.form-container {
+  text-align: center;
+  width: 540px;
+  min-height: 631px;
+  /* height: 520px; */
+  border: 1px solid rgb(41, 41, 41);
+  padding: 20px;
+  /* margin: 20px; */
+  margin: auto;
+  border-radius: 35px;
+  
+  margin-top: 80px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email{
+  height: 50px;
+  width: 500px;
+  border-radius: 25px;
+  border: solid 2px orangered;
+}
+
+.uname{
+  height: 50px;
+  width: 500px;
+  border-radius: 25px;
+  border: solid 2px orangered;
+}
+
+.password{
+  height: 50px;
+  width: 500px;
+  border-radius: 25px;
+  border: solid 2px orangered;
+}
+
+.subbut{
+  width: 500px;
+  height: 60px;
+  background-color: orangered;
+  border-radius: 35px;
+  font-size: 18pt;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.break{
+  height: 300px;
+}
+
+.form label,
+.form input {
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.form-footer {
+  margin-top: 20px;
+}
+
+.form-footer p span {
+  color: blue;
+  cursor: pointer;
+}
+.login-invalid-message-email{
+  background-color: rgb(245, 229, 229);
+  border-radius: 12px;
+  font-weight: 700;
+  color: red;
+  margin-bottom: 10px;
+}
+.login-invalid-message-password{
+  background-color: rgb(245, 229, 229);
+  border-radius: 12px;
+  font-weight: 700;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.signup-username-error-message{
+  background-color: rgb(245, 229, 229);
+  border-radius: 12px;
+  font-weight: 700;
+  color: red;
+  margin-bottom: 10px;
+}
+.signup-email-error-message{
+  background-color: rgb(245, 229, 229);
+  border-radius: 12px;
+  font-weight: 700;
+  color: red;
+  margin-bottom: 10px;
+}
