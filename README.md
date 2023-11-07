@@ -83,6 +83,16 @@
 <!-- About the Project -->
 ## About the Project
 
+### Demo Video
+https://drive.google.com/file/d/1jZJcjiQL4OzASo6w9Jcv0Uhe74mUC2Q_/view?usp=sharing
+
+### Website Links
+#### Heroku
+https://opendevungerer-67a33b0d08e8.herokuapp.com/
+
+#### Firebase
+https://opendevungerer.web.app
+
 <!-- Mockup -->
 ### Mockup
 <img src="/final/mockups/Hero.png" alt="Mockup" style="height: 600px"/>
